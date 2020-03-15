@@ -1,0 +1,23 @@
+Model:
+Min v[1] + v[2] + v[3] + v[4] + v[5] + v[6]
+Subject to
+ v[3] ≥ 1.0
+ v[4] ≥ 1.0
+ v[1] + v[5] ≥ 1.0
+ v[2] + v[5] ≥ 1.0
+ v[3] + v[4] + v[6] ≥ 1.0
+ v[5] ≥ 1.0
+ v[1] binary
+ v[2] binary
+ v[3] binary
+ v[4] binary
+ v[5] binary
+ v[6] binary
+
+Objective value = 3.0
+v[1] = 0.0
+v[2] = 0.0
+v[3] = 1.0
+v[4] = 1.0
+v[5] = 1.0
+v[6] = 0.0

@@ -1,0 +1,20 @@
+let
+	x1 be number of GE45,
+	x2 be number of GE60
+Max 50 x1 + 75 x2
+Subject to
+ Product : 2 x1 + 2 x2 ≤ 300.0
+ Assembly : x1 + 3 x2 ≤ 240.0
+ x1 ≥ 0.0
+ x2 ≥ 0.0
+
+Optimal Solutions:
+'GE45' x1 = 105.0
+'GE45' x2 = 45.0
+Objective value = 8625.0
+OPTIMAL
+FEASIBLE_POINT
+FEASIBLE_POINT
+Allowable (decrease, increase) values for x1 'GE45': (-25.0, 25.0)
+Allowable (decrease, increase) values for x2 'GE60': (-25.0, 75.0)
+
